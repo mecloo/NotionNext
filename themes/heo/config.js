@@ -113,6 +113,14 @@ const CONFIG = {
       title_2: 'Rhino',
       img_2: '/images/heo/20231ca53fa0b09a3ff1df89acd7515e9516173302.webp',
       color_2: '#1f1f1f'
+    },
+    {
+      title_1: 'Ubuntu',
+      img_1: 'https://wuwo.oss-cn-chengdu.aliyuncs.com/md/ubuntu_14143.png',
+      color_1: '#ff690c',
+      title_2: 'Debian',
+      img_2: 'https://wuwo.oss-cn-chengdu.aliyuncs.com/md/debian_logo_icon_169285.png',
+      color_2: '#ffffff'
     }
   ],
 
