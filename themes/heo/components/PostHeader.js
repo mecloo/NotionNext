@@ -37,7 +37,7 @@ export default function PostHeader({ post, siteInfo, isDarkMode }) {
       `}</style>
 
       <div
-         className={`${isDarkMode ? 'bg-[#CA8A04]' : 'bg-[#99ffff]'} absolute top-0 w-full h-full py-10 flex justify-center items-center`}>
+         className={`${isDarkMode ? 'bg-[#CA8A04]' : 'bg-[#ffffff]'} absolute top-0 w-full h-full py-10 flex justify-center items-center`}>
         {/* 文章背景图 */}
 {/*
         <div
@@ -66,7 +66,7 @@ export default function PostHeader({ post, siteInfo, isDarkMode }) {
                   className='mr-4'
                   passHref
                   legacyBehavior>
-                  <div className='cursor-pointer font-sm font-bold px-3 py-1 rounded-lg  hover:bg-white text-white bg-blue-500 dark:bg-yellow-500 hover:text-blue-500 duration-200 '>
+                  <div className='cursor-pointer font-sm font-bold px-3 py-1 rounded-lg  hover:bg-black text-white bg-blue-500 dark:bg-yellow-500 hover:text-blue-500 duration-200 '>
                     {post.category}
                   </div>
                 </SmartLink>
