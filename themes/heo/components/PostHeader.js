@@ -23,6 +23,7 @@ export default function PostHeader({ post, siteInfo, isDarkMode }) {
     <div
       id='post-bg'
     className='md:mb-0 -mb-5 w-full h-[30rem] relative md:flex-shrink-0 overflow-hidden bg-cover bg-center bg-no-repeat z-10'>
+    {/*
       <style jsx>{`
         .coverdiv:after {
           position: absolute;
@@ -35,7 +36,7 @@ export default function PostHeader({ post, siteInfo, isDarkMode }) {
             ${isDarkMode ? '#CA8A04' : '#0060e0'} inset; 
         }
       `}</style>
-
+    */}
       <div
          className={`${isDarkMode ? 'bg-[#CA8A04]' : 'bg-[#ffffff]'} absolute top-0 w-full h-full py-10 flex justify-center items-center`}>
         {/* 文章背景图 */}
