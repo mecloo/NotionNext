@@ -2,7 +2,7 @@ const CONFIG = {
   HEO_HOME_POST_TWO_COLS: true, // 首页博客两列显示，若为false则只显示一列
   HEO_LOADING_COVER: false, // 页面加载的遮罩动画
 
-  HEO_HOME_BANNER_ENABLE: true,
+  HEO_HOME_BANNER_ENABLE: false,
 
   HEO_SITE_CREATE_TIME: '2025-11-11', // 建站日期，用于计算网站运行的第几天
 
@@ -39,8 +39,8 @@ const CONFIG = {
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-//    '你好！我是',
-    '🔍 分享与热心帮助',
+    '你好！我是',
+//    '🔍 分享与热心帮助',
 //    '🤝 专修交互与设计',
 //    '🏃 脚踏实地行动派',
 //    '🏠 智能家居小能手',
@@ -49,7 +49,6 @@ const CONFIG = {
   ],
 
   // 个人资料底部按钮
-  HEO_INFO_CARD: false,
   HEO_INFO_CARD_URL1: '/about',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
   HEO_INFO_CARD_URL2: 'https://github.com/tangly1024',
