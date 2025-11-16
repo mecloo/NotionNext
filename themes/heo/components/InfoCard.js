@@ -27,7 +27,7 @@ export function InfoCard(props) {
       {/* 信息卡牌第一行 */}
       <div className='flex justify-between'>
         {/* 问候语 */}
-        <GreetingsWords />
+       // <GreetingsWords />
         {/* 头像 */}
         <div
           className={`${isSlugPage ? 'absolute right-0 -mt-8 -mr-6 hover:opacity-0 hover:scale-150 blur' : 'cursor-pointer'} justify-center items-center flex dark:text-gray-100 transform transitaion-all duration-200`}>
