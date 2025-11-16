@@ -21,7 +21,7 @@ export default function PostHeader({ post, siteInfo, isDarkMode }) {
   const ANALYTICS_BUSUANZI_ENABLE = siteConfig('ANALYTICS_BUSUANZI_ENABLE')
   return (
     <div
-      id='post-bg'
+    //  id='post-bg'
    // className='md:mb-0 -mb-5 w-full h-[30rem] relative md:flex-shrink-0 overflow-hidden bg-cover bg-center bg-no-repeat z-10'>
     {/*
       <style jsx>{`
