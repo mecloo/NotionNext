@@ -1,6 +1,6 @@
 const CONFIG = {
   HEO_HOME_POST_TWO_COLS: true, // 首页博客两列显示，若为false则只显示一列
-  HEO_LOADING_COVER: true, // 页面加载的遮罩动画
+  HEO_LOADING_COVER: false, // 页面加载的遮罩动画
 
   HEO_HOME_BANNER_ENABLE: true,
 
@@ -18,8 +18,8 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享创业',
-  HEO_HERO_TITLE_2: '与工具资源',
+  HEO_HERO_TITLE_1: '拆解知识',
+  HEO_HERO_TITLE_2: '与分享工具资源',
   HEO_HERO_TITLE_3: 'huangtuw.com',
   HEO_HERO_TITLE_4: 'huangtuw是微信号',
   HEO_HERO_TITLE_5: '荒涂',
@@ -28,9 +28,9 @@ const CONFIG = {
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
+  HEO_HERO_CATEGORY_1: { title: '必读精选', url: '/tag/知识拆解' },
   HEO_HERO_CATEGORY_2: { title: '网盘资源', url: '/tag/网盘资源' },
-  HEO_HERO_CATEGORY_3: { title: '实用工具', url: '/tag/实用工具' },
+  HEO_HERO_CATEGORY_3: { title: '懒人工具', url: '/tag/懒人工具' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
@@ -49,6 +49,7 @@ const CONFIG = {
   ],
 
   // 个人资料底部按钮
+  HEO_INFO_CARD: false,
   HEO_INFO_CARD_URL1: '/about',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
   HEO_INFO_CARD_URL2: 'https://github.com/tangly1024',
