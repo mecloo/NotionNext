@@ -36,7 +36,7 @@ export default function PostHeader({ post, siteInfo, isDarkMode }) {
         }
       `}</style>
       <div
-       className={`${isDarkMode ? 'bg-[#CA8A04]' : 'bg-[#0060e0]'} absolute top-0 py-10 flex justify-center items-center`}>
+       className={`${isDarkMode ? 'bg-[#CA8A04]' : 'bg-[#0060e0]'} absolute w-full h-fulltop-0 py-10 flex justify-center items-center`}>
         {/* 文章背景图 */}
 {/*
         <div
