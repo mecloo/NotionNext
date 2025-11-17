@@ -137,7 +137,7 @@ export default function PostHeader({ post, siteInfo, isDarkMode }) {
           </section>
         </div>
 
-{/*  <WavesArea /> */}
+      <WavesArea /> 
       </div>
     </div>
   )
