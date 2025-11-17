@@ -22,7 +22,7 @@ export default function PostHeader({ post, siteInfo, isDarkMode }) {
   return (
     <div
       id='post-bg'
-    className='md:mb-0 -mb-5  relative md:flex-shrink-0 overflow-hidden w-full h-[20rem] bg-cover bg-center bg-no-repeat z-10'>
+    className='md:mb-0 -mb-5  relative md:flex-shrink-0 overflow-hidden w-full h-[30rem] bg-cover bg-center bg-no-repeat z-10'>
       <style jsx>{`
         .coverdiv:after {
           position: absolute;
@@ -46,7 +46,7 @@ export default function PostHeader({ post, siteInfo, isDarkMode }) {
           className='coverdiv lg:opacity-50 lg:translate-x-96 lg:rotate-12'>
           <LazyImage
             id='post-cover'
-            className='w-full h-full object-cover max-h-[50rem] min-w-[50vw] min-h-[15rem]'
+            className='w-full h-full object-cover max-h-[50rem] min-w-[50vw] min-h-[20rem]'
             src={headerImage}
           />
         </div>
