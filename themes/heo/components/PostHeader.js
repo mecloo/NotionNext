@@ -22,7 +22,7 @@ export default function PostHeader({ post, siteInfo, isDarkMode }) {
   return (
     <div
       id='post-bg'
-    className='md:mb-0 -mb-5  relative md:flex-shrink-0 overflow-hidden bg-cover bg-center bg-no-repeat z-10'>
+    className='md:mb-0 -mb-5  relative md:flex-shrink-0 overflow-hidden h-[15rem] bg-cover bg-center bg-no-repeat z-10'>
       <style jsx>{`
         .coverdiv:after {
           position: absolute;
